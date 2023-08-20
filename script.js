@@ -1,4 +1,11 @@
+function playScream() {
+    const audioElement = document.getElementById("screamAudio");
+    audioElement.play();
+}
+
 function displayJoke() {
+    playScream(); // play the scream sound effect
+    
     const jokes = [
         "Why did the scarecrow scream at the corn? He wanted it to pop!",
         "Why did the golfer scream? He realized he put his tee in the wrong green!",
